@@ -15,9 +15,9 @@ def my_func(x1, x2, x3):
         return "Not a number – denominator equals zero"
     if x1 != float(x1):
        print("Error: parameters should be float")
-    if x2 != float(x1):
+    if x2 != float(x2):
         print("Error: parameters should be float")
-    if x3 != float(x1):
+    if x3 != float(x3):
        print("Error: parameters should be float")
          
     return func
