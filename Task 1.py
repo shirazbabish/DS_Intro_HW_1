@@ -13,7 +13,7 @@ def my_func(x1, x2, x3):
     
     if (x1+x2+x3)==0:
         return "Not a number – denominator equals zero"
-    if (x1 != float(x1) or x2 != float(x2) or x3 != float(x3)):
+    if (isinstance(x1,float) or isinstance(x2,float) or isinstance(x3,float)  == False):
         return "Error: parameters should be float"
          
     return func
